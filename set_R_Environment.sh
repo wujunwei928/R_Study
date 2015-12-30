@@ -15,4 +15,8 @@ sudo apt-get update
 sudo apt-get install r-base-core r-base-dev
 
 # 批量安装R包
-R CMD BATCH set_R_Environment.R
+# 下面三种都可以执行R文件, 但有细微差别, 
+# R CMD BATCH set_R_Environment.R 	# 不直接输出, 会将输出信息存储到一个 .ROut 的新文件里
+# R -f set_R_Environment.R            # 直接输出, 但是会打印R版本等不相关的信息
+Rscript set_R_Environment.R   		# 仅输出R文件里输出的信息, 打印比较干净
+
