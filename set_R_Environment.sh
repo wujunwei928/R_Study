@@ -14,5 +14,5 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
 sudo apt-get update
 sudo apt-get install r-base-core r-base-dev
 
-# ÅúÁ¿°²×°R°ü
+# æ‰¹é‡å®‰è£…RåŒ…
 R CMD BATCH set_R_Environment.R
