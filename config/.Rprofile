@@ -34,13 +34,13 @@ options(graphics.record=TRUE)
 
 # 启动R时需要做的事
 .First <- function(){
- # library(gbm)
- # library(R2HTML)
- cat("\nWelcome at", date(), "\n")
+#    library(gbm)
+#    library(R2HTML)
+    cat("\nWelcome at", format(Sys.time()), "\n")
 }
 
 # 关闭R时需要做的事
 .Last <- function(){
- cat("\nGoodbye at ", date(), "\n")
+    cat("\nGoodbye at ", format(Sys.time()), "\n")
 }
 
