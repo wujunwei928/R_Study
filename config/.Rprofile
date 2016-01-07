@@ -34,7 +34,7 @@ options(graphics.record=TRUE)
 
 # 启动R时需要做的事
 .First <- function(){
- library(gbm)
+ # library(gbm)
  # library(R2HTML)
  cat("\nWelcome at", date(), "\n")
 }
