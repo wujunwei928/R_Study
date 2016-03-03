@@ -1,3 +1,4 @@
+#!/bin/bash
 
 # install need software
 sudo apt-get install mysql-server openjdk-7-jdk  vim  redis-server openssh-server subversion git mongodb-clients mongodb-server terminator chromium-browser
@@ -15,7 +16,12 @@ sudo apt-get update
 sudo apt-get install r-base-core r-base-dev
 
 # move .Rprofile to user's home
-mv config/.Rprofile ~/
+cp config/.Rprofile ~/
+
+# if dir ~/R is not exists, create it
+if [[ ! -d "~/R" ]]; then
+    mkdir ~/R
+fi
 
 # 批量安装R包
 # 下面三种都可以执行R文件, 但有细微差别, 
