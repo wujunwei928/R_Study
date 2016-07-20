@@ -23,7 +23,7 @@
 
 # 设置默认的下载镜像源, 每次都选镜像太烦了
 local({r <- getOption("repos")
-      r["CRAN"] <- "http://mirror.bjtu.edu.cn/cran/"
+      r["CRAN"] <- "https://mirrors.tuna.tsinghua.edu.cn/CRAN/"
       r["CRANextra"] <- "http://www.stats.ox.ac.uk/pub/RWin"
       options(repos=r)})
 
