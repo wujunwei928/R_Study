@@ -10,7 +10,7 @@ sudo apt-get install libmysqlclient-dev		# resolve install RMySQL package
 sudo apt-get install libssl-dev 			# resolve install devtools package
 
 # install latest R
-sudo apt-add-repository -y "deb http://mirror.bjtu.edu.cn/cran/bin/linux/ubuntu/ `lsb_release -cs`/"
+sudo apt-add-repository -y "deb https://mirrors.tuna.tsinghua.edu.cn/CRAN/bin/linux/ubuntu/ `lsb_release -cs`/"
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
 sudo apt-get update
 sudo apt-get install r-base-core r-base-dev
