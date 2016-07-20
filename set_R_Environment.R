@@ -2,7 +2,7 @@
 # 批量安装R包, 在set_R_Environment.sh 中 安装好之后在需要的软件之后, 调用此文件安装
 
 # 指定下载R package的镜像, 选一个速度快的
-downloadRepos <- 'http://mirror.bjtu.edu.cn/cran/'
+downloadRepos <- 'https://mirrors.tuna.tsinghua.edu.cn/CRAN/'
 
 # 安装R包
 install.packages('rJava', repos = downloadRepos) 
