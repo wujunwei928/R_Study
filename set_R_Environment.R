@@ -7,7 +7,7 @@ downloadRepos <- 'https://mirrors.tuna.tsinghua.edu.cn/CRAN/'
 # 安装R包
 install.packages('rJava', repos = downloadRepos) 
 # 批量安装R包
-install.packages(c('sqldf', 'RMongo', 'rredis', 'XML', 'xml2', 'rPython'), repos = downloadRepos)
+install.packages(c('sqldf', 'RMySQL', 'RMongo', 'rredis', 'XML', 'xml2', 'rPython'), repos = downloadRepos)
 # 安装R语言的七种武器
 install.packages(c('RCurl', 'shiny', 'ggplot2', 'plyr', 'tm', 'htmlwidgets', 'quantmod'), repos = downloadRepos)
 # 从github安装R包
