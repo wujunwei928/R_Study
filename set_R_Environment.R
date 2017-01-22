@@ -10,6 +10,8 @@ install.packages('rJava', repos = downloadRepos)
 install.packages(c('sqldf', 'RMySQL', 'RMongo', 'rredis', 'XML', 'xml2', 'rPython'), repos = downloadRepos)
 # 安装R语言的七种武器
 install.packages(c('RCurl', 'shiny', 'ggplot2', 'plyr', 'tm', 'htmlwidgets', 'quantmod'), repos = downloadRepos)
+# 安装数据处理相关包
+install.packages(c('dplyr', 'data.table', 'reshape2', 'tidyr', 'readr', 'readxl', 'rvest', 'splitstackshape'), repos = downloadRepos)
 # 从github安装R包
 install.packages("devtools", repos = downloadRepos)
 devtools::install_github('lchiffon/wordcloud2') # 词云包，可以将词语拼成图像，文字等
